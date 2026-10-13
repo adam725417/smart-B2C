@@ -1,0 +1,58 @@
+:root{--navy:#07192d;--blue:#49a7ff;--line:#26415d;--cream:#fffaf0;--ink:#182c42;--orange:#ffb45b}*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:'Noto Sans TC','Microsoft JhengHei',system-ui,sans-serif}body{background:radial-gradient(circle at 40% 0%,#183f67,#07192d 60%);color:#f5faff}.app{min-height:100vh;display:flex;flex-direction:column}.top{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:13px 22px;border-bottom:1px solid #244463;background:#07192de8}.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}.logo{background:#58adff;color:#08213d;font-size:25px;font-weight:900;padding:9px 13px;border-radius:12px}.brand strong{display:block;font-size:18px}.brand small{display:block;color:#b5cce2;font-size:12px;margin-top:3px}nav{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}button{font:inherit;cursor:pointer}nav button,.topbtn button,footer button{border:1px solid #375675;color:#e8f3ff;background:#143252;padding:9px 12px;border-radius:10px;font-weight:700}nav button.active,footer .primary{background:#338be6;color:white;border-color:#338be6}nav button:hover,footer button:hover{filter:brightness(1.2)}main{width:min(1450px,100%);margin:auto;flex:1;position:relative;padding:18px 66px 28px;display:flex;flex-direction:column;justify-content:center}.heading{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:0 0 14px}.kicker{color:#7bc6ff;font-weight:800;font-size:13px;letter-spacing:.12em}.heading h1{font-size:clamp(21px,2.3vw,34px);margin:4px 0 0}.counter{border:1px solid #375675;padding:8px 13px;border-radius:30px;white-space:nowrap;color:#d6e8ff}#stage{background:var(--cream);color:var(--ink);border-radius:18px;border:7px solid #cfe5ff;min-height:480px;box-shadow:0 18px 55px #0006;padding:24px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}.edge{position:absolute;top:54%;width:46px;height:65px;border:1px solid #3d6287;background:#143654;color:white;font-size:44px;border-radius:12px}.edge.left{left:9px}.edge.right{right:9px}footer{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:12px 22px;background:#07192d;border-top:1px solid #244463}.hint{font-size:13px;color:#a6c4df}.footactions{display:flex;gap:10px}.progress{height:5px;background:#19324d}.progress div{height:100%;background:#52b2ff;transition:width .2s}.comic{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;flex:1}.panel{border:3px solid #172a3e;border-radius:7px;background:#fff;min-height:180px;display:flex;flex-direction:column;overflow:hidden;position:relative}.panel:nth-child(2){background:#eef7ff}.panel:nth-child(3){background:#fff0db}.panel:nth-child(4){background:#e8f7ed}.scene{display:flex;align-items:center;justify-content:center;gap:18px;flex:1;padding:15px;min-height:90px}.person{font-size:clamp(40px,5vw,75px);filter:drop-shadow(2px 3px 0 #a2b3bd)}.bubble{background:white;border:2px solid #172a3e;border-radius:22px;padding:12px 16px;font-size:clamp(15px,1.4vw,21px);font-weight:800;line-height:1.45;max-width:70%;position:relative}.bubble:after{content:'';position:absolute;bottom:-11px;left:20px;width:15px;height:15px;background:white;border-bottom:2px solid #172a3e;border-right:2px solid #172a3e;transform:rotate(45deg)}.strip{background:#172a3e;color:white;font-weight:800;padding:9px 13px;font-size:clamp(14px,1.2vw,19px)}.tag{position:absolute;top:8px;left:9px;background:#ffdc6c;border:2px solid #172a3e;border-radius:5px;padding:3px 8px;font-weight:900;font-size:12px}.flowline{display:flex;align-items:stretch;justify-content:center;flex-wrap:wrap;gap:9px;margin:20px 0}.flowbox{background:#edf7ff;border:2px solid #2b658b;border-radius:13px;min-width:135px;max-width:190px;flex:1;text-align:center;padding:18px 10px;display:flex;flex-direction:column;justify-content:center;gap:9px;font-size:18px;font-weight:900}.flowbox span{font-size:31px}.arr{align-self:center;font-size:27px;color:#2780b8;font-weight:900}.teach{margin-top:20px;border-left:6px solid #ffae4b;background:#fff1d7;padding:15px 19px;font-size:clamp(16px,1.4vw,20px);font-weight:700;line-height:1.6}.sectiontitle{text-align:center;font-size:clamp(25px,2.5vw,39px);margin:5px 0 13px}.sub{text-align:center;color:#49627a;font-size:19px;margin:0 0 10px}.nodes .flowbox{background:#fff4e8;border-color:#c37c3b}.nodes .flowbox small{font-size:13px;font-weight:600;color:#78502d}.prompt{background:#eaf5ff;border:2px dashed #3e9cda;border-radius:12px;padding:16px 20px;font-size:19px;font-weight:750;line-height:1.6;margin-top:12px}.hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:25px}.hero h2{font-size:clamp(34px,4vw,62px);line-height:1.2;margin:10px 0}.hero p{font-size:22px;line-height:1.7}.hero .art{font-size:clamp(70px,10vw,160px);text-align:center;background:#e6f4ff;border:4px solid #162b42;border-radius:20px;padding:35px 10px}.lesson{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:20px}.lesson>div{background:#eaf5ff;border:2px solid #5d9ac5;border-radius:12px;padding:22px;text-align:center;font-size:20px;font-weight:800}.lesson b{display:block;font-size:32px;margin-bottom:10px}.pill{display:inline-block;background:#ffcf74;color:#192d40;border:2px solid #192d40;border-radius:25px;padding:6px 13px;font-weight:900}.tiny{font-size:14px;color:#536d83;text-align:center;margin-top:16px}@media(max-width:1100px){.top{flex-wrap:wrap}nav{order:3;width:100%;justify-content:flex-start;overflow:auto;flex-wrap:nowrap}main{padding:18px 55px 25px}}@media(max-width:700px){.top{padding:10px}.brand strong{font-size:15px}nav button{font-size:12px;padding:7px}.heading h1{font-size:21px}main{padding:12px 39px 18px}#stage{padding:12px;min-height:550px}.comic{grid-template-columns:1fr;gap:8px}.panel{min-height:110px}.scene{padding:9px}.person{font-size:38px}.bubble{font-size:14px}.strip{font-size:13px}.edge{width:33px;height:54px;font-size:32px}.edge.left{left:2px}.edge.right{right:2px}.hero{grid-template-columns:1fr}.hero .art{font-size:70px;padding:12px}.hero p{font-size:16px}.flowbox{min-width:95px;font-size:14px;padding:12px 6px}.flowbox span{font-size:23px}.arr{font-size:19px}.lesson{grid-template-columns:1fr}.hint{display:none}footer{justify-content:center}}
+/* Anime editorial refresh */
+:root{--pink:#fa5a92;--ink:#17233b}
+body{background:linear-gradient(130deg,#131d39,#273758 50%,#432b52)}
+.top{background:#111b33!important;border-bottom:2px solid #ff81a9}
+#stage{background:linear-gradient(135deg,#fff7fb,#fff 65%,#f0f7ff)!important;border:3px solid #1d2940!important;box-shadow:10px 12px 0 #0d1528!important;color:#18253b!important}
+.panel{border:3px solid #1d2940!important;box-shadow:5px 6px 0 #18253b!important;transform:rotate(-.3deg)}
+.panel:nth-child(even){transform:rotate(.35deg)}
+.bubble{border:2px solid #1d2940!important;background:#fff!important;color:#17233b!important;border-radius:25px!important;box-shadow:3px 4px 0 #17233b}
+.tag{background:#ff578e!important;color:white!important}
+.strip{background:#192744!important;color:white!important}
+.hero{background:linear-gradient(100deg,rgba(18,29,51,.92),rgba(24,38,67,.72)),url('anime_reference.png') center/cover!important;color:white!important;border-radius:20px}
+.sectiontitle{color:#17233b!important}
+.flowbox{background:#fff!important;border:2px solid #263653!important;color:#17233b!important;box-shadow:3px 4px 0 #263653}
+.teach{border-left:5px solid #f65d92!important;background:#fff0f6!important;color:#24304c!important}
+.prompt{background:#fff1f7!important;color:#1c2942!important;border:2px solid #ff8db4!important}
+.lesson>div{background:#fff!important;color:#24304c!important;border:2px solid #263653!important}
+@media(max-width:760px){.panel{transform:none!important}}
+.manga-scene{background-image:linear-gradient(150deg,rgba(255,255,255,.06),rgba(255,229,242,.2)),url('anime_reference.png')!important;background-size:900px auto!important;background-position:42% 17%!important;min-height:240px!important}
+.panel:nth-child(2) .manga-scene{background-position:70% 17%!important}
+.panel:nth-child(3) .manga-scene{background-position:36% 44%!important}
+.panel:nth-child(4) .manga-scene{background-position:77% 43%!important}
+.manga-scene .person{display:none!important}
+.manga-scene .bubble{max-width:66%;font-weight:750}
+
+/* Projector-first, four-panel manga layout */
+.comic-four{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:stretch;width:100%}
+.comic-frame{margin:0;min-width:0;background:#fff;border:3px solid #17243b;border-radius:12px;overflow:hidden;box-shadow:4px 5px 0 #192c47;display:flex;flex-direction:column}
+.comic-frame img{display:block;width:100%;height:clamp(300px,48vh,570px);object-fit:fill}
+.comic-frame figcaption{text-align:center;background:#162940;color:#fff;font-weight:900;font-size:clamp(17px,1.55vw,24px);padding:11px 4px}
+@media(max-width:850px){.comic-four{grid-template-columns:repeat(2,minmax(0,1fr))}.comic-frame img{height:330px}}
+@media(max-width:480px){.comic-four{grid-template-columns:1fr}.comic-frame img{height:auto}}
+
+/* 2026-10: preserve original panel proportions on all screens */
+.comic-four{align-items:start;gap:clamp(8px,1vw,15px)}
+.comic-frame{align-self:start;min-width:0}
+.comic-frame img{width:100%;height:auto!important;max-height:min(66vh,620px);object-fit:contain!important;object-position:center;background:#f9f6f3;aspect-ratio:auto!important}
+.comic-frame figcaption{font-size:clamp(14px,1.35vw,21px);padding:9px 4px}
+#stage:has(.comic-four){padding:clamp(10px,1.6vw,22px);min-height:0}
+.story-cover{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.15fr);align-items:center;gap:clamp(15px,3vw,40px);width:100%}
+.story-cover-copy h2{font-size:clamp(38px,4.6vw,70px);line-height:1.22;margin:20px 0;color:#142d4a}
+.story-cover-copy p{font-size:clamp(18px,1.8vw,27px);font-weight:800;line-height:1.5}
+.cover-line{font-size:clamp(15px,1.35vw,20px);font-weight:900;background:#e7f3ff;border-radius:14px;padding:17px 12px;text-align:center}
+.cover-line span{color:#e44c82}
+.cover-art{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;min-width:0}
+.cover-art img{display:block;width:100%;height:auto;aspect-ratio:594/470;object-fit:contain;border:3px solid #1d2940;border-radius:12px;background:#fff;box-shadow:3px 4px 0 #1d2940}
+.story-ending .cover-line{background:#fce8ef}
+@media(max-width:850px){.comic-four{grid-template-columns:repeat(2,minmax(0,1fr))}.comic-frame img{max-height:none}.story-cover{grid-template-columns:1fr}.story-cover-copy h2{font-size:38px}.cover-art{max-width:680px;margin:auto}}
+@media(max-width:480px){.comic-four{grid-template-columns:1fr}.comic-frame img{max-height:none}.cover-art{gap:7px}.cover-art img{border-width:2px}.story-cover-copy h2{font-size:32px}}
+
+/* Consistent projector-size four-panel comic, no stretching */
+.comic-four{grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch!important}
+.comic-frame{align-self:stretch!important;transform:none!important;box-shadow:0 3px 0 #192c47!important}
+.comic-frame img{display:block;width:100%!important;height:auto!important;aspect-ratio:4/3!important;max-height:none!important;object-fit:contain!important;background:#fffaf5}
+.comic-frame figcaption{margin-top:auto;min-height:2.8em;display:flex;align-items:center;justify-content:center}
+.cover-art img{width:100%;height:auto!important;aspect-ratio:4/3!important;object-fit:contain!important}
+@media(max-width:850px){.comic-four{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.comic-four{grid-template-columns:1fr}}
